@@ -8,6 +8,7 @@ authors = ["Fernando Sedrez <fmsedrez@gmail.com>"]
 python = "^3.10"
 google-cloud-logging = "^3.2.5"
 google-cloud-storage = "^2.5.0"
+pytz = "^2022.5"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
