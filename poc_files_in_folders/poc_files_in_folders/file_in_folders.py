@@ -17,11 +17,7 @@ def file_in_folders(event, context):
     )
     logging.info("Info!")
     storage_client = storage.Client()
-
-    # Note: Client.list_blobs requires at least package version 1.17.0.
     blobs = storage_client.list_blobs("tse_data", prefix="raw")
-
-    # Note: The call returns a response only when the iterator is consumed.
     logging.info("Blobs:")
     matches = [file.name for file in blobs if
                 '.json' in file.name and 'demo' in file.name]
