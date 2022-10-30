@@ -5,14 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2a7eaefe-2d55-4e74-b75e-0017ba9fdd33" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/cf_download_simplified_data/README.rst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cf_download_simplified_data/cf_download_simplified_data/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cf_download_simplified_data/cf_download_simplified_data/cf_download_simplified_data.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cf_download_simplified_data/poetry.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cf_download_simplified_data/pyproject.toml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cf_download_simplified_data/requirements.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cf_download_simplified_data/tests/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cf_download_simplified_data/tests/test_cf_download_simplified_data.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cf_process_config/cf_process_config/cf_process_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/cf_process_config/cf_process_config/cf_process_config.py" afterDir="false" />
     </list>
@@ -66,7 +58,7 @@
       <option name="presentableId" value="Default" />
       <updated>1666992613582</updated>
       <workItem from="1666992617680" duration="3174000" />
-      <workItem from="1667072675439" duration="11896000" />
+      <workItem from="1667072675439" duration="17420000" />
     </task>
     <servers />
   </component>

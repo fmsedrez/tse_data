@@ -31,7 +31,7 @@ def process_config(event, context):
              'name': file_date.strftime("%Y-%m-%d %H:%M:%S") +
                      "_" + file["nm"], 'folder': "simplified_data",
              'tse_name': file["nm"],
-             'tse_url': "https://resultados.tse.jus.br/oficial/ele2022/544/dados-simplificados/br/",
+             'tse_url': "https://resultados.tse.jus.br/oficial/ele2022/545/dados-simplificados/br/",
              'file_datetime': file_date.strftime("%Y-%m-%d %H:%M:%S")
              }
         )
