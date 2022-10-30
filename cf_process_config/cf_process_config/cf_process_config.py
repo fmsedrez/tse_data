@@ -3,6 +3,7 @@ import os
 import base64
 import datetime
 import json
+import pytz
 from google.cloud import logging as gl
 from google.cloud import storage
 
@@ -25,11 +26,15 @@ def process_config(event, context):
     logging.info(list_files)
     for file in list_files:
         file_date = datetime.datetime.strptime(file["dh"], "%d/%m/%Y %H:%M:%S")
-
         info_message = json.dumps(
             {'action': "download", 'type': "dados-simplificados" ,
              'name': file_date.strftime("%Y-%m-%d %H:%M:%S") +
-                     "_" + file["nm"], 'folder': "simplified_data"})
+                     "_" + file["nm"], 'folder': "simplified_data",
+             'tse_name': file["nm"],
+             'tse_url': "https://resultados.tse.jus.br/oficial/ele2022/544/dados-simplificados/br/",
+             'file_datetime': file_date.strftime("%Y-%m-%d %H:%M:%S")
+             }
+        )
         logging.info(info_message)
     return
 
