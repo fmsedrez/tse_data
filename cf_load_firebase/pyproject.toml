@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "cf_load_firebase"
+version = "0.1.0"
+description = ""
+authors = ["Fernando Sedrez <fmsedrez@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "3.10"
+google-cloud-bigquery = "^3.3.5"
+google-cloud-logging = "^3.2.5"
+google-cloud-firestore = "^2.7.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

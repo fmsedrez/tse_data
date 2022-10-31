@@ -6,7 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2a7eaefe-2d55-4e74-b75e-0017ba9fdd33" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cf_process_config/cf_process_config/cf_process_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/cf_process_config/cf_process_config/cf_process_config.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cf_load_bq/cf_load_bq/cf_load_bq.py" beforeDir="false" afterPath="$PROJECT_DIR$/cf_load_bq/cf_load_bq/cf_load_bq.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +58,7 @@
       <option name="presentableId" value="Default" />
       <updated>1666992613582</updated>
       <workItem from="1666992617680" duration="3174000" />
-      <workItem from="1667072675439" duration="17420000" />
+      <workItem from="1667072675439" duration="30194000" />
     </task>
     <servers />
   </component>
