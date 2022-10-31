@@ -44,6 +44,18 @@ def load_bq(event, context):
         logging.error(f"Encountered errors while inserting rows: {errors}")
         return
     logging.info(f"New rows have been added, data from {blob_name} add to BQ.")
+    info_message = json.dumps(
+        {'action': "export",
+         'type': "dados-simplificados",
+         'table_id': "brazilian-elections.simplified_data.presidential_election",
+         'table': "presidential_election",
+         'dataset': "simplified_data",
+         'project': "brazilian-elections",
+         'collection': "result",
+         'document': "president"
+         }
+    )
+    logging.info(info_message)
     return
 
 def setup_logging():
